@@ -1,0 +1,451 @@
+body{
+    background-color: #191b1fff;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+.header{
+    background-color: #191b1ff3;
+    display: flex;
+    justify-content: flex-start;
+    margin-right: 30px;
+    font-family: arial;
+    align-items: center;
+    height:50px;
+    position:sticky;
+    top:0;
+}
+a.top{
+    padding:0 2%;
+    text-decoration: none;
+    color: gray;
+}
+a.top:hover{
+    color:white;
+    cursor: pointer;
+}
+.head-btn{
+    background-color: rgb(255, 0, 122);
+    padding:9px 15px;
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 2px;
+    color:white;
+    font-family:arial;
+    box-shadow: 1px 1px rgb(6, 23, 51);
+}
+.head-btn:hover{
+    cursor: pointer;
+    background-color: rgb(198, 4, 98) ;
+    color:rgb(238, 238, 238)
+}
+.logoimg{
+    height:40px;
+    width:40px;
+}
+.navimg{
+    padding-right: 33%;
+    padding-left: 1%;
+}
+.Maindiv{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 2%;
+}
+.up{
+    display: flex;
+    color:white;
+}
+.light,.weight{
+    padding:10px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 60px;
+}
+.weight{
+    font-weight:bolder ;
+}
+.light{
+    font-weight: lighter;
+}
+.line{
+    color:white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 25px;
+    margin-left: 1%;
+    font-weight: lighter;
+    margin-top: -3%;
+    
+}
+.cont{
+    display:flex;
+    flex-direction: column;
+    margin-left: 5%;
+    margin-top: 30%;
+    width:50%;
+}
+.log{
+    height:20px;
+    width:20px;
+    padding-right:10px;
+}
+.logos{
+    margin-left: 6%;
+}
+.count{
+    display: flex;
+    flex-direction: row;
+    color:white;
+    justify-content: center;
+    margin-top: 5%;
+}
+.vol{
+    display: flex;
+    flex-direction: column;
+    padding-right: 5%;
+
+}
+.counthead{
+    font-size: 50px;
+}
+.countl{
+    margin-top: -16%;
+    display: flex;
+    justify-content: center;
+}
+.midcontent{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10%;
+}
+.midleft{
+    width:23%;
+    margin-left: 5%;
+    color:white;
+    font-size: 150%;
+}
+.eco{
+    text-decoration: none;
+    color:white;
+    font-size: 20px;
+}
+.line2{
+    font-size: 35px;
+}
+.midpara{
+    color:grey;
+    font-size: 22px;
+    font-weight: lighter;
+}
+.midright{
+    background-image: url(uniswap.jpg);
+    width:40%;
+    border-radius: 10px;
+    border-width:0.2px;
+    border-style: groove;
+    border-color: rgb(122, 122, 122);
+    margin-left: 23%;
+    color: white;
+
+}
+/* .crypto{
+    width:80%;
+    height:100%; 
+    border-radius: 10px;
+    margin-left:15%;  
+    position: relative;
+    color: white;
+} */
+.inbtn{
+    /* position:absolute; */
+    background-color: rgba(128, 128, 128, 0.5);
+    border-radius: 10px;
+    color:white;
+    padding:10px 20px;
+}
+.inbtn:hover{
+    cursor: pointer;
+}
+.move{
+    color:white;
+    margin-left: 10%;
+}
+.moveh{
+    font-size: 50px;
+}
+.movep{
+    color:white;
+    margin-top: -4%;
+    font-size: larger;
+    
+}
+a.dev{
+    text-decoration: none;
+    color:white;
+    font-size: 20px;
+}
+.incont{
+    margin-left: 5%;
+    margin-top: 5%;
+}
+.flexmain{
+    display:flex;
+    flex-direction: row;
+    height:550px;
+    /* background-color: aliceblue; */
+    margin-top: 3%;
+}
+.flexleft{
+    display:flex;
+    flex-direction: column;
+    margin-left: 5%;
+    /* background-color: rgb(20, 192, 192); */
+    height: 100%;
+    width:65%;
+}
+.flexright{
+    /* margin-left: ; */
+    /* background-color: blue; */
+    /* height:95%; */
+    width:33%;
+}
+.inright{
+    margin-top:3.5%;
+    margin-left: 3%;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(102, 102, 102);
+    background-color: rgb(34, 37, 42);
+    border-radius: 20px;
+    height:100%;
+    width:70%;
+}
+
+.inr8img{
+    height:25%;
+    width:33%;
+    margin-top: 7%;
+    margin-left: 7%;
+}
+.inrightcontent{
+    margin-left: 7%;
+    color:white;
+    width:80%;
+}
+.pcont{
+    font-size: 22px;
+    color:white;
+    
+}
+.inthin{
+    font-size: 22px;
+    font-weight: lighter;
+    color: rgb(184, 184, 184);
+}
+.inri8btn{
+    background-color: rgba(255, 255, 255, 0.1);
+    color:rgb(193, 190, 190);
+    padding:8px 20px;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 0.5px;
+    border-color: rgba(128, 0, 128, 0.382);
+}
+.inri8btn:hover{
+    cursor: pointer;
+    border-style:solid;
+    border-color: rgba(128, 0, 128, 0.41);
+    border-width: 0.2px;
+    color:rgb(222, 220, 220);
+}
+.lefttopbox{
+    background-image: url("sky.jpg");
+    background-position: 100%;
+    height:85%;
+    width:98%;
+    /* opacity: 80%; */
+    border-radius: 20px;
+    margin-left:10px;
+    margin-top:2% ;
+    border-style: solid;
+    border-width:0.2px;
+    border-color: rgb(102, 102, 102);
+
+}
+h3,.leftcont1{
+    color:white;
+    font-size: 140%;
+}
+p,.leftcont1{
+    font-weight: lighter;
+    color:rgb(143, 141, 141);
+}
+.docbtn{
+    color:rgb(231, 231, 231);
+    background-color: rgba(255, 255, 255, 0.147);
+    height:40PX;
+    width:30%;
+    border-radius: 5PX;
+    border-style:solid;
+    font-size: 15px;
+    border-width: 0.5px;
+    border-width: thin;
+    border-color:rgba(128, 0, 128, 0.358) ;
+}
+.docbtn:hover{
+    color:rgb(178, 178, 178);
+    cursor:pointer;
+}
+.leftcont1{
+    margin-top: 20%;
+    margin-left: 3% ;
+    width:60%;
+}
+.botbutton{
+    display:flex;
+    flex-direction:row;
+    margin-top:2%;
+    margin-left:14px;
+}
+.bt{
+    /* display: flex; */
+    flex-direction: row;
+    margin-right: 10px;
+    height: 200%;
+    width: 50%;
+    background-color: rgba(255, 255, 255, 0.045);
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 0.1px;
+    border-color: rgb(102, 102, 102);
+    color:white;
+    font-size: 20px;
+}
+.bt:hover{
+    cursor: pointer;
+    color:gray
+}
+.gov{
+    margin-left:6% ;
+    margin-top:5% ;
+}
+.gova{
+    text-decoration: none;
+    color:white;
+}
+.mid2con{
+    display:flex;
+    flex-direction: row;
+    height:400px;
+    /* background-color: aquamarine; */
+}
+.mid2left{
+    background-image: url("Uniswap\ introduces\ an\ iOS\ mobile\ wallet\ in\ specific\ countries.jpg");
+    background-position: 10%;
+    height:100%;
+    width:45%;
+    border-radius: 20px;
+    margin-left: 6%;
+    /* opacity:70% */
+}
+.mlt{
+    margin-left: 5%;
+    margin-top: 4%;
+    color:white;
+    width:90%
+}
+.p{
+    color:rgb(255, 255, 255);
+    font-size: 25px;
+}
+.btnn{
+    background-color: rgba(255, 255, 255, 0.057);
+    border:none;
+    border-radius:5px ;
+    margin-top: 24%;
+    height: 40px;
+    width: 20%;
+    color:white;
+    border-color: purple;
+    border-style:solid;
+    border-width: 0.5px;
+}
+.btnn:hover{
+    cursor: pointer;
+    color: rgb(171, 171, 171);
+}
+.mid2ri8{
+    display: flex;
+    flex-direction: column;
+    margin-left: 4%;
+}
+.ri8btns{
+    display: flex;
+    flex-direction: column;
+    width:84%;
+    justify-content:flex-start;
+    margin-top: 10px;
+    height:30%;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0);
+    border-style:groove;
+    border-width: 1px;
+    border-color:rgb(106, 106, 106);
+}
+.hh{
+    color:white;
+}
+.pp{
+    color:rgb(171, 171, 171);
+    font-size: 18px;
+    margin-top: -1%;
+}
+.dd{
+    display:flex;
+    flex-direction: column;
+    width:90%;
+    justify-content: left;
+
+}
+.ri8btns:hover{
+ background-color: rgba(177, 178, 180, 0.185);
+ /* color:rgb(189, 189, 189) */
+ cursor: pointer;
+}
+.foot{
+    display:flex;
+    flex-direction: column;
+    margin-top: 15%;
+}
+.foottop{
+    display: flex;
+    flex-direction:row ;
+}
+.foota{
+    padding-right: 2%;
+    text-decoration: none;
+    color:white;
+    font-size: small;
+}
+.footbot{
+    color:white;
+    margin-top: 2%;
+    font-size: small;
+    margin-bottom: 3%;
+    /* display: flex; */
+}
+.footp{
+    color:rgb(206, 206, 206);
+}
+.footpa{
+    color:white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.footpa:hover{
+    color:rgb(206, 206, 206);
+}
+.footlog{
+    height:20px;
+    width:20px;
+    padding-right:2%;
+}
